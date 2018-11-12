@@ -1,0 +1,18 @@
+C:\Users\mabora\Videos\Captures\SDF Configuration Helper\SDF Configuration Helper\bin\Debug\SDF Configuration Helper.exe.config
+C:\Users\mabora\Videos\Captures\SDF Configuration Helper\SDF Configuration Helper\bin\Debug\SDF Configuration Helper.exe
+C:\Users\mabora\Videos\Captures\SDF Configuration Helper\SDF Configuration Helper\bin\Debug\SDF Configuration Helper.pdb
+C:\Users\mabora\Videos\Captures\SDF Configuration Helper\SDF Configuration Helper\bin\Debug\SDF Configuration Helper.xml
+C:\Users\mabora\Videos\Captures\SDF Configuration Helper\SDF Configuration Helper\obj\Debug\SDF Configuration Helper.vbprojAssemblyReference.cache
+C:\Users\mabora\Videos\Captures\SDF Configuration Helper\SDF Configuration Helper\obj\Debug\SDF_Configuration_Helper.SDFConfigurationHelper.resources
+C:\Users\mabora\Videos\Captures\SDF Configuration Helper\SDF Configuration Helper\obj\Debug\SDF_Configuration_Helper.Resources.resources
+C:\Users\mabora\Videos\Captures\SDF Configuration Helper\SDF Configuration Helper\obj\Debug\SDF Configuration Helper.vbproj.GenerateResource.cache
+C:\Users\mabora\Videos\Captures\SDF Configuration Helper\SDF Configuration Helper\obj\Debug\SDF Configuration Helper.vbproj.CoreCompileInputs.cache
+C:\Users\mabora\Videos\Captures\SDF Configuration Helper\SDF Configuration Helper\obj\Debug\SDF Configuration Helper.exe
+C:\Users\mabora\Videos\Captures\SDF Configuration Helper\SDF Configuration Helper\obj\Debug\SDF Configuration Helper.xml
+C:\Users\mabora\Videos\Captures\SDF Configuration Helper\SDF Configuration Helper\obj\Debug\SDF Configuration Helper.pdb
+C:\Users\mabora\Videos\Captures\SDF Configuration Helper\SDF Configuration Helper\obj\Debug\SDF_Configuration_Helper.FormAddJava.resources
+C:\Users\mabora\Videos\Captures\SDF Configuration Helper\SDF Configuration Helper\obj\Debug\SDF_Configuration_Helper.FormAddCertificate.resources
+C:\Users\mabora\Videos\Captures\SDF Configuration Helper\SDF Configuration Helper\obj\Debug\SDF_Configuration_Helper.FormCloneProject.resources
+C:\Users\mabora\Videos\Captures\SDF Configuration Helper\SDF Configuration Helper\obj\Debug\SDF_Configuration_Helper.FormAddUserInformation.resources
+C:\Users\mabora\Videos\Captures\SDF Configuration Helper\SDF Configuration Helper\obj\Debug\SDF_Configuration_Helper.FormGenerateToken.resources
+C:\Users\mabora\Videos\Captures\SDF Configuration Helper\SDF Configuration Helper\obj\Debug\SDF_Configuration_Helper.FormDeployProject.resources
