@@ -1,1 +1,6 @@
 2018-11-13 01:21:26,468 - Project folder "C:\Users\mabora\Videos\Captures\css\result-management-system" does not exists.
+2018-11-13 11:35:57,845 - Warnings for file C:\Users\mabora\Desktop\SDF_Application\test-sdf-project\Objects\customrecord_sdf.xml.
+2018-11-13 11:35:57,847 -     - Line No. 12 - Error Message: The "customsegment" field depends on the "CUSTOMSEGMENTS" feature. The manifest must define the "CUSTOMSEGMENTS" feature as required or optional.
+2018-11-13 11:35:57,853 -     - Line No. 14 - Error Message: The "enabledle" field depends on the "EXTREMELIST" feature. The manifest must define the "EXTREMELIST" feature as required or optional.
+2018-11-13 11:35:57,879 -     - Line No. 16 - Error Message: The "enablemailmerge" field depends on the "MAILMERGE" feature. The manifest must define the "MAILMERGE" feature as required or optional.
+2018-11-13 11:35:57,899 -     - Line No. 17 - Error Message: The "enablenametranslation" field depends on the "MULTILANGUAGE" feature. The manifest must define the "MULTILANGUAGE" feature as required or optional.

@@ -66,6 +66,7 @@ Public Class FormGenerateToken
     Private Sub ButtonGenerateToken_Click(sender As Object, e As EventArgs) Handles ButtonGenerateToken.Click
         Dim Command = $"cmd.exe /k echo {TextBoxPassword.Text} | sdfcli issuetoken -account {Account} -email {TextBoxEmail.Text} -role {Role} -url {URL} && exit"
         Shell(PathName:=Command)
+        Threading.Thread.Sleep(15000)
         MessageBox.Show(text:="Token successfully issued.", caption:="Success alert!", buttons:=MessageBoxButtons.OK, icon:=MessageBoxIcon.Information)
     End Sub
 

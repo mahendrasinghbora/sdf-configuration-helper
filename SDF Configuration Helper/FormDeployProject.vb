@@ -71,12 +71,6 @@ Public Class FormDeployProject
         ButtonDeployProject.ForeColor = Color.FromArgb(red:=40, green:=167, blue:=69)
     End Sub
 
-    Private Sub ButtonDeployProject_Click(sender As Object, e As EventArgs)
-        Dim Command = $"cmd.exe /k echo YES | sdfcli deploy -account {TextBoxAccount.Text} -email {TextBoxEmail.Text} -p ""{TextBoxProjectPath.Text}"" -role {Role} -url {TextBoxURL.Text} -np && exit"
-        Shell(Command)
-        MessageBox.Show(text:="Project successfully deployed to NetSuite.", caption:="Success alert!", buttons:=MessageBoxButtons.OK, icon:=MessageBoxIcon.Information)
-    End Sub
-
     Private Sub ButtonPrev_MouseEnter(sender As Object, e As EventArgs) Handles ButtonPrev.MouseEnter
         ButtonPrev.ForeColor = Color.FromArgb(255, 255, 255)
     End Sub
@@ -88,5 +82,12 @@ Public Class FormDeployProject
     Private Sub ButtonPrev_Click(sender As Object, e As EventArgs) Handles ButtonPrev.Click
         FormGenerateToken.Show()
         Dispose()
+    End Sub
+
+    Private Sub ButtonDeployProject_Click(sender As Object, e As EventArgs) Handles ButtonDeployProject.Click
+        Dim Command = $"cmd.exe /k echo YES | sdfcli deploy -account {TextBoxAccount.Text} -email {TextBoxEmail.Text} -p ""{TextBoxProjectPath.Text}"" -role {Role} -url {TextBoxURL.Text} -np -v && exit"
+        Shell(Command)
+        Threading.Thread.Sleep(25000)
+        MessageBox.Show(text:="Project successfully deployed to NetSuite.", caption:="Success alert!", buttons:=MessageBoxButtons.OK, icon:=MessageBoxIcon.Information)
     End Sub
 End Class

@@ -121,6 +121,7 @@ Public Class FormCloneProject
                 Command = $"cmd.exe /k cd ""{My.Computer.FileSystem.SpecialDirectories.MyDocuments}"" && mkdir ""SDFConfigurationHelper"" && exit"
                 Shell(Command)
             End If
+            Threading.Thread.Sleep(10000)
             MessageBox.Show(text:="Project Repository successfully cloned.", caption:="Success alert!", buttons:=MessageBoxButtons.OK, icon:=MessageBoxIcon.Information)
             Dim FileContent As String = TextBoxUsername.Text + vbCrLf + TextBoxEmail.Text + vbCrLf + TextBoxClone.Text + "\" + TextBoxRepositoryURL.Text.Substring(TextBoxRepositoryURL.Text.LastIndexOf("/") + 1, TextBoxRepositoryURL.Text.LastIndexOf(".") - TextBoxRepositoryURL.Text.LastIndexOf("/") - 1)
             My.Computer.FileSystem.WriteAllText(My.Computer.FileSystem.SpecialDirectories.MyDocuments + "\SDFConfigurationHelper\git_config.txt", FileContent, False)
